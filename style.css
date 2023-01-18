@@ -42,6 +42,7 @@ button{
     color: white;
     height: 40px;
     width: 100px;
+    cursor: pointer;
 }
 button:hover{
     backround-color:rgba(74, 111, 69) ;
