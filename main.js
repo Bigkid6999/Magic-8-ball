@@ -1,16 +1,21 @@
-document.getElementById("btn").addEventListener("click", btnClicked)
+document.getElementById("btn").addEventListener("click", btnClicked);
 
 function btnClicked(){
 
-console.log("search")
-
+let randNum = Math.random();
    
     
-if ( getElementById("text") === Math.random()   ){
-    document.getElementById("answer").innerHTML = "Without a doubt"
+if (randNum <= 0.2) {
+    getElementById("answer").innerHTML = "Without a Doubt.";
 }
-else if ( getElementById("text") === Math.random()){
-    document.getElementById("answer").innerHTML = "As I see it, yes"
+else if (randNum <= 0.2) {
+    getElementById("answer").innerHTML = "As I see it, yes.";
+    
+} else if (randNum <= 0.2) {
+    getElementById("answer").innerHTML = "Concentrate and ask again.";
+} else if (randNum <= 0.2) {
+    getElementById("answer").innerHTML = "Don't count on it.";
+} else if (randNum <= 0.2) {
+    getElementById("answer").innerHTML = "Outlook not so good.";
 }
-
 }
